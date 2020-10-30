@@ -97,7 +97,7 @@ public class Charge implements Task {
     public void chargeComments(String token) {
 
         String requestBody = "order_id=" + token
-                + "&message=" + "BilibiliTask自动充电"
+                + "&message=" + "Bilibili自动充电"
                 + "&csrf=" + data.getBili_jct();
         JSONObject jsonObject = Request.post("http://api.bilibili.com/x/ugcpay/trade/elec/message", requestBody);
         LOGGER.debug(jsonObject.toString());

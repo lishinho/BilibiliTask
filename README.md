@@ -72,11 +72,11 @@
 
 在`Secrets`中的`Name`和`Value`格式如下：
 
-Name | Value
--|-
-BILI_JCT | xxxxx
-DEDEUSERID | xxxxx
-SESSDATA | xxxxx
+|Name | Value|
+|-----|:----|
+|BILI_JCT | xxxxx|
+|DEDEUSERID | xxxxx|
+|SESSDATA | xxxxx|
 
 将上一步获取的参数，替换对应的`xxxxx`，一共需要添加三个键值对。
 
@@ -130,7 +130,7 @@ autoCharge: true #允许月底B币卷给自己充电，默认为true允许。[fa
 在`Secrets`中的`Name`和`Value`格式如下：
 
 Name | Value
--|-
+|----|:----|
 SCKEY | xxxxx
 
 这样就可以在微信接收到运行结果了。
